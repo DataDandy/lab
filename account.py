@@ -4,7 +4,7 @@ class Account:
         :param name: Account name
         """
         self.__name = name
-        self.__balance = 0.00
+        self.__balance = 0
 
     def deposit(self, amount: float) -> bool:
         """Function to add a designated amount to the account class. When a positive value is given, it will be
